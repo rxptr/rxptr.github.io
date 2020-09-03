@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <title>Mohammad Nematzadeh</title>
+  <style>
+    body {
+      font-family: "Source Sans Pro", sans-serif;;
+      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }
+
+    .blink {
+      animation: fading 2.5s infinite;
+    }
+
+    @keyframes fading {
+      0%{opacity:0}
+      50%{opacity:1}
+      100%{opacity:0}
+    }
+
+    #particles-js canvas {
+      position: absolute;
+      height: 100vh;
+      z-index: -1;
+      background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    }
+  </style>
+  <title>Mohammad Nematzadeh</title>
+</head>
+<body>
+  <section id="particles-js" class="hero is-fullheight" style="background: transparent;">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title" style="color: #fff;">
+          Mohammad Nematzadeh
+        </h1>
+        <h2 class="subtitle" style="color: #fff;">
+          Programmer<span class="blink">_</span>
+        </h2>
+        <div class="subtitle">
+          <a class="button is-link" target="_blank" href="https://www.linkedin.com/in/mohammad-nematzadeh-4a45827/">
+            <i class="fa fa-linkedin fa-lg"></i>
+          </a>
+          <a class="button is-dark" target="_blank" href="https://github.com/rxptr">
+            <i class="fa fa-github fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <script type="text/javascript">
+    particlesJS('particles-js',
+    {
+      "particles": {
+        "number": {
+          "value": 200,
+          "density": {
+            "enable": true,
+            "value_area": 1000
+          }
+        },
+        "color": {
+          "value": "#bababa"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0
+          }
+        },
+        "opacity": {
+          "value": 0.7,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 0.1,
+            "opacity_min": 0,
+            "sync": true
+          }
+        },
+        "size": {
+          "value": 5,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 0.1,
+            "size_min": 0,
+            "sync": true
+          }
+        },
+        "line_linked": {
+          "enable": false
+        },
+        "move": {
+          "enable": true,
+          "speed": 0.1,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>	
+</html>
